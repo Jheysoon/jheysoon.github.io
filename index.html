@@ -32,10 +32,10 @@
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#navbar-example">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+    <nav class="navbar navbar-default navbar-fixed-top topnav" id="navbar-example" role="navigation">
         <div class="container topnav">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -68,7 +68,7 @@
 
 
     <!-- Header -->
-    <div class="intro-header">
+    <div class="intro-header" id="about">
         <div class="container">
 
             <div class="row">
@@ -95,6 +95,7 @@
                                     <span class="network-name">Facebook</span>
                                 </a>
                             </li>
+                            <a id="projects" class="sr-only"></a>
                         </ul>
                     </div>
                 </div>
@@ -108,32 +109,28 @@
 
     <!-- Page Content -->
 
-    <h1 class="text-center" id="projects">Projects</h1>
+    <h1 class="text-center">Projects</h1>
     <div class="content-section-a">
-
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-sm-6">
                     <hr class="section-heading-spacer">
+                    <a id="contact" class="sr-only"></a>
                     <div class="clearfix"></div>
                     <h2 class="section-heading">Leyte Colleges Information System (LCIS)</h2>
                     <p class="lead"></p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+
                     <img class="img-responsive" src="img/lcis.png" alt="">
                 </div>
             </div>
-
         </div>
         <!-- /.container -->
-
     </div>
 
-	<a  name="contact"></a>
     <div class="banner">
-
         <div class="container">
-
             <div class="row">
                 <div class="col-lg-6">
                     <!-- <h2></h2> -->
@@ -191,7 +188,7 @@
     <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <!-- <script src="js/bootstrap.min.js"></script> -->
+    <script src="js/bootstrap.min.js"></script>
 
 </body>
 
