@@ -11,13 +11,9 @@
 
     <title>Jayson Martinez Portfolio</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/landing-page.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
@@ -32,164 +28,78 @@
 
 </head>
 
-<body data-spy="scroll" data-target="#navbar-example">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top topnav" id="navbar-example" role="navigation">
-        <div class="container topnav">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand topnav" href="#">Jayson Martinez</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="#about">About</a>
-                    </li>
-                    <li>
-                        <a href="#projects">Projects</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Contact</a>
-                    </li>
+<body>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper brown darken-1">
+                <a href="#" class="brand-logo">&nbsp; JM</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="#about"><i class="material-icons left">perm_identity</i>About</a></li>
+                    <li><a href="#projects"><i class="material-icons left">web</i>Projects</a></li>
+                    <li><a href="#contact"><i class="material-icons left">contacts</i> Contact</a></li>
                 </ul>
             </div>
-            <!-- /.navbar-collapse -->
+        </nav>
+    </div>
+
+
+    <!-- <div class="container"> -->
+        <!-- <div class="row"> -->
+        <div class="parallax-container">
+            <div class="parallax">
+                <img src="img/programmer1.jpg">
+            </div>
         </div>
-        <!-- /.container -->
-    </nav>
-
-
-    <!-- Header -->
-    <div class="intro-header" id="about">
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="intro-message">
-                        <h1>JHEYSOON</h1>
-                        <hr class="intro-divider">
-                        <ul class="list-inline intro-social-buttons">
-                            <li>
-                                <a href="https://twitter.com/jheymartinez1" target="_blank" class="btn btn-default btn-lg">
-                                    <i class="fa fa-twitter fa-fw"></i>
-                                    <span class="network-name">Twitter</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/Jheysoon" target="_blank" class="btn btn-default btn-lg">
-                                    <i class="fa fa-github fa-fw"></i>
-                                    <span class="network-name">Github</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://facebook.com/jayson.martinez.359126" target="_blank" class="btn btn-default btn-lg">
-                                    <i class="fa fa-facebook-square fa-fw"></i>
-                                    <span class="network-name">Facebook</span>
-                                </a>
-                            </li>
-                            <a id="projects" class="sr-only"></a>
-                        </ul>
+        <div class="section white">
+            <div class="row container">
+                <h2 class="header">Hi am Jayson L. Martinez</h2>
+                <div class="row">
+                    <div class="col s12 m12">
+                        <div class="card-panel">
+                            <p>Web Developer</p>
+                            <p>Programming Languages : PHP, CSS, HTML, JAVASCRIPT</p>
+                            <p>PHP MVC Frameworks / Libraries : CodeIgniter, Laravel, Bootstrap, Jquery</p>
+                        </div>
                     </div>
                 </div>
             </div>
+        </div>
+
+        <div class="row">
 
         </div>
-        <!-- /.container -->
 
-    </div>
-    <!-- /.intro-header -->
+        <footer class="page-footer grey darken-2">
+            <div class="container grey darken-2">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h5 class="white-text">Contact Me</h5>
+                        <a target="_blank" href="https://www.facebook.com/jayson.martinez.359126" class="waves-effect waves-light btn white-text indigo darken-1">
+                            <span class="fa fa-facebook fa-lg"></span>
+                        </a>
+                        <a target="_blank" href="https://github.com/Jheysoon" class="waves-effect waves-light btn black blue-grey lighten-3">
+                            <span class="fa fa-github fa-lg"></span>
+                        </a>
+                    </div>
+                    <div class="col l4 offset-l2 s12">
 
-    <!-- Page Content -->
-
-    <h1 class="text-center">Projects</h1>
-    <div class="content-section-a">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <a id="contact" class="sr-only"></a>
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Leyte Colleges Information System (LCIS)</h2>
-                    <p class="lead"></p>
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-
-                    <img class="img-responsive" src="img/lcis.png" alt="">
+                    </div>
                 </div>
             </div>
-        </div>
-        <!-- /.container -->
-    </div>
-
-    <div class="banner">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <!-- <h2></h2> -->
-                </div>
-                <div class="col-lg-6">
-                    <ul class="list-inline banner-social-buttons">
-                        <li>
-                            <a href="https://twitter.com/jheymartinez1" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/Jheysoon" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                        </li>
-                        <li>
-                            <a href="https://facebook.com/jayson.martinez.359126" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-facebook-square fa-fw"></i> <span class="network-name">FACEBOOK</span></a>
-                        </li>
-                    </ul>
+            <div class="footer-copyright grey darken-3">
+                <div class="container">
+                © 2015 Copyright
                 </div>
             </div>
+        </footer>
 
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.banner -->
-
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="list-inline">
-                        <li>
-                            <a href="#">Home</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#about">About</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#projects">Projects</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                    <p class="copyright text-muted small">Copyright &copy; 2014. All Rights Reserved</p>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
+        <script src="js/jquery.js"></script>
+        <script src="js/materialize.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('.parallax').parallax();
+                $('.scrollspy').scrollSpy();
+            });
+        </script>
 </body>
-
 </html>
