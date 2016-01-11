@@ -107,7 +107,7 @@
         </div>
         <div class="footer-copyright grey darken-3">
             <div class="container">
-            © 2015 Copyright
+            © <?php echo date('Y') ?> Copyright
             </div>
         </div>
     </footer>
