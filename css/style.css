@@ -34,26 +34,6 @@
 
 .grey.darken-4 {
     background-color: #212121 !important; }
-/*.navbar-fixed {
-    position: relative;
-    height: 56px;
-    z-index: 998; }*/
-/*.navbar-fixed nav {
-    position: fixed; }
-@media only screen and (min-width : 601px) {
-    nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
-        height: 64px;
-        line-height: 64px; }
-    .navbar-fixed {
-        height: 64px; } }
-
-nav .nav-wrapper {
-    position: relative;
-    height: 100%; }
-nav .nav-wrapper i {
-    display: block;
-    font-size: 2rem; }*/
-
 .right {
     float: right !important; }
 @media only screen and (max-width : 992px) {
@@ -64,21 +44,6 @@ nav .nav-wrapper i {
 
 .light, footer.page-footer .footer-copyright {
     font-weight: 300; }
-
-/*nav {
-    color: #fff;
-    background-color: #ee6e73;
-    width: 100%;
-    height: 56px;
-    line-height: 56px; }
-nav a {
-    color: #fff; }
-nav .nav-wrapper {
-    position: relative;
-    height: 100%; }
-nav .nav-wrapper i {
-    display: block;
-    font-size: 2rem; }*/
 
 footer.page-footer {
     margin-top: 20px;
