@@ -73,3 +73,7 @@ footer.page-footer .footer-copyright {
     border-radius: 50%;
     margin-top: -70px;
 }
+
+.bg-white {
+    background-color: #ffffff;
+}
