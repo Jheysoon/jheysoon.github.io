@@ -8,7 +8,7 @@ Copyright 2016
 
 ## Development
 
-React + Vite. Static assets (CSS, fonts, images) live in `public/`.
+React + Vite + Tailwind CSS v4. Theme tokens live in `src/styles.css`; static assets in `public/`.
 
 ```sh
 pnpm install
