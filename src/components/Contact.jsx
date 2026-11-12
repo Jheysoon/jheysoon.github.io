@@ -4,7 +4,7 @@ import Section from './Section.jsx'
 export default function Contact() {
   return (
     <Section id="contact" title="Contact Me" className="text-center">
-      <p className="text-muted">Reach out on any of these:</p>
+      <p className="text-muted">Reach out to me on GitHub:</p>
       <SocialLinks />
     </Section>
   )

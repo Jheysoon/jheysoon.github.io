@@ -8,7 +8,6 @@ export const profile = {
 
 export const socials = [
   { label: 'GitHub', href: 'https://github.com/Jheysoon', icon: 'github' },
-  { label: 'Facebook', href: 'https://www.facebook.com/jayson.martinez.359126', icon: 'facebook' },
 ]
 
 export const skills = [

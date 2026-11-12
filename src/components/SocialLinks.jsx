@@ -1,7 +1,7 @@
 import { socials } from '../data.js'
-import { FacebookIcon, GitHubIcon } from './Icons.jsx'
+import { GitHubIcon } from './Icons.jsx'
 
-const icons = { github: GitHubIcon, facebook: FacebookIcon }
+const icons = { github: GitHubIcon }
 
 export default function SocialLinks() {
   return (

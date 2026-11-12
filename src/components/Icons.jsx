@@ -7,14 +7,6 @@ export function GitHubIcon(props) {
   )
 }
 
-export function FacebookIcon(props) {
-  return (
-    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" {...props}>
-      <path d="M9.1 23.7v-8H6.6V12h2.5v-1.6c0-4.1 1.9-6 5.9-6h1.6v3.4h-1.3c-1.3 0-1.8.5-1.8 1.8V12h3l-.5 3.7h-2.5v8z" />
-    </svg>
-  )
-}
-
 export function ArrowDownIcon(props) {
   return (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" {...props}>
