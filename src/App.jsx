@@ -1,32 +1,21 @@
-import Navbar from './components/Navbar.jsx'
-import Parallax from './components/Parallax.jsx'
+import Hero from './components/Hero.jsx'
 import About from './components/About.jsx'
 import Projects from './components/Projects.jsx'
+import Contact from './components/Contact.jsx'
 import Footer from './components/Footer.jsx'
+import BottomBar from './components/BottomBar.jsx'
 
 export default function App() {
   return (
     <>
-      <Navbar />
-      <Parallax src="/img/programmer1.jpg" alt="Programmer at work" />
-      <img src="/img/prof.jpg" alt="Jayson L. Martinez" className="img-thumbnail center-block" />
-
-      <div className="container-fluid">
-        <div className="row">
-          <div className="col-md-4 col-md-offset-4">
-            <h2 className="text-xs-center">Hi! am Jayson L. Martinez</h2>
-          </div>
-        </div>
-        <div className="row">
-          <div className="col-md-8 col-md-offset-2">
-            <About />
-            <Projects />
-          </div>
-        </div>
-      </div>
-      <div className="row" id="contact" />
-
+      <main>
+        <Hero />
+        <About />
+        <Projects />
+        <Contact />
+      </main>
       <Footer />
+      <BottomBar />
     </>
   )
 }
