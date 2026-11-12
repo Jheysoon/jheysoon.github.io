@@ -17,6 +17,25 @@ export const skills = [
   { title: 'Backend', items: ['NestJS', 'Node.js', 'PHP', 'Laravel', 'MySQL'] },
 ]
 
+export const featuredProject = {
+  name: 'Landers Superstore',
+  description:
+    'Online shopping for the Landers Superstore membership chain: browse local and imported products, pay with several methods and get same-day delivery in Metro Manila and Cebu.',
+  tags: ['web', 'android', 'ios'],
+  links: [
+    { label: 'Website', href: 'https://www.landers.ph/', icon: 'globe' },
+    { label: 'Google Play', href: 'https://play.google.com/store/apps/details?id=com.snapmart.landers&hl=en', icon: 'play' },
+    { label: 'App Store', href: 'https://apps.apple.com/us/app/landers-superstore/id1480948945', icon: 'apple' },
+  ],
+  // Official App Store screenshots.
+  screenshots: [
+    { src: '/img/landers/screen-1.jpg', alt: 'Landers app product listing with add to cart' },
+    { src: '/img/landers/screen-2.jpg', alt: 'Landers app digital membership card' },
+    { src: '/img/landers/screen-3.jpg', alt: 'Landers app rewards hub with rebates and vouchers' },
+    { src: '/img/landers/screen-4.jpg', alt: 'Landers app checkout payment methods' },
+  ],
+}
+
 export const projects = [
   {
     name: 'react-native-mlkit-ocr-v2',
