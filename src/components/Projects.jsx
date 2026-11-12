@@ -8,13 +8,18 @@ const focusRing =
   "focus-visible:outline-2 focus-visible:outline-offset-3 focus-visible:outline-accent-2";
 const cardLink = `rounded-2xl border border-line bg-surface p-6 transition hover:border-accent/50 hover:bg-accent/6 ${focusRing}`;
 
-function Tags({ items }) {
+const tagStyles = {
+  accent: "border-accent/25 bg-accent/12 text-violet-300",
+  cyan: "border-accent-2/25 bg-accent-2/10 text-cyan-300",
+};
+
+function Tags({ items, tone = "accent" }) {
   return (
     <ul className="flex flex-wrap gap-2">
       {items.map((tag) => (
         <li
           key={tag}
-          className="rounded-full border border-accent/25 bg-accent/12 px-2.5 py-1 text-xs text-violet-300"
+          className={`rounded-full border px-2.5 py-1 text-xs ${tagStyles[tone]}`}
         >
           {tag}
         </li>
@@ -23,7 +28,7 @@ function Tags({ items }) {
   );
 }
 
-function FeaturedProject({ name, description, tags, links, screenshots }) {
+function FeaturedProject({ name, description, tags, stack, links, screenshots }) {
   return (
     <article className="mb-4 rounded-2xl bg-linear-135 from-accent-2/60 via-accent/60 to-purple-500/60 p-px shadow-[0_0_40px_rgb(124_92_245/0.15)]">
       <div className="rounded-[15px] bg-bg/95 p-6 sm:p-8">
@@ -32,6 +37,10 @@ function FeaturedProject({ name, description, tags, links, screenshots }) {
           {description}
         </p>
         <Tags items={tags} />
+        <h4 className="mt-5 mb-2 text-xs font-semibold tracking-[0.18em] text-muted uppercase">
+          Tech stack
+        </h4>
+        <Tags items={stack} tone="cyan" />
         <ul className="mt-6 flex flex-wrap gap-3">
           {links.map(({ label, href, icon }) => {
             const Icon = linkIcons[icon];
