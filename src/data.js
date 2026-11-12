@@ -21,6 +21,7 @@ export const featuredProject = {
   description:
     'Online shopping for the Landers Superstore membership chain: browse local and imported products, pay with several methods and get same-day delivery in Metro Manila and Cebu.',
   tags: ['web', 'android', 'ios'],
+  stack: ['Expo', 'React Router', 'TanStack Query', 'SQLite', 'Tailwind CSS v4'],
   links: [
     { label: 'Website', href: 'https://www.landers.ph/', icon: 'globe' },
     { label: 'Google Play', href: 'https://play.google.com/store/apps/details?id=com.snapmart.landers&hl=en', icon: 'play' },
